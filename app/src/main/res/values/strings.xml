@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Transit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="live_map_nav_bar_header">Live Map</string>
+    <string name="schedules_nav_bar_header">Schedules</string>
+    <string name="routes_nav_bar_header">Routes</string>
+    <string name="parking_map_nav_bar_header">Parking Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="building_url">http://campusdata.uark.edu/api/buildings?callback=Buildings</string>
+    <string name="route_url">http://campusdata.uark.edu/api/routes?callback=Routes</string>
+    <string name="stop_url">https://campusdata.uark.edu/api/stops?callback=Stopsnull&amp;routeIds=undefined</string>
+    <string name="bus_url">https://campusdata.uark.edu/signalr?transport=longPolling&amp;connectionId=79fa1891-1a55-499b-8e75-68a7c680d5df&amp;connectionData=%5B%7B%22name%22%3A%22BusesHub%22%7D%5D&amp;messageId=5580&amp;tid=7</string>
+</resources>

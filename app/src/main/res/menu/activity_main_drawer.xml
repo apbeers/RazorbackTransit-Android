@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_live_map"
+            android:icon="@drawable/ic_live_map"
+            android:title="Live Map" />
+        <item
+            android:id="@+id/nav_schedules"
+            android:icon="@drawable/ic_schedules"
+            android:title="Schedules" />
+        <item
+            android:id="@+id/nav_routes"
+            android:icon="@drawable/ic_routes"
+            android:title="Routes" />
+        <item
+            android:id="@+id/nav_parking"
+            android:icon="@drawable/ic_parking"
+            android:title="Parking" />
+    </group>
+
+</menu>
