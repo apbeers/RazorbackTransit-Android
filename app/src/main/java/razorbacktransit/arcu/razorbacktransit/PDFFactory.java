@@ -25,11 +25,12 @@ public class PDFFactory {
     private PDF schedule35 = new PDF("Schedule 35", "schedule35");
     private PDF schedule44 = new PDF("Schedule 44", "schedule44");
     private PDF schedule48 = new PDF("Schedule 48", "schedule48");
+    private PDF scheduleenrc = new PDF("ENRC Shuttle", "scheduleenrc");
 
 
     public PDF[] getAllSChedules() {
 
-        return new PDF[] {schedule11, schedule13, schedule17, schedule21, schedule26, schedule33, schedule35, schedule44, schedule48};
+        return new PDF[] {schedule11, schedule13, schedule17, schedule21, schedule26, schedule33, schedule35, schedule44, schedule48, scheduleenrc};
     }
 
     public PDF[] getAllRoutes() {
