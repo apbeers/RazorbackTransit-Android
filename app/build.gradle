@@ -1,23 +1,24 @@
 apply plugin: 'com.android.application'
 
 android {
+
     compileSdkVersion 27
     buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "razorbacktransit.arcu.razorbacktransit"
         minSdkVersion 19
         targetSdkVersion 27
-        versionCode 17
-        versionName "4.2.1"
+        versionCode 31
+        versionName "4.2.6"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             //signingConfig signingConfigs.config
             minifyEnabled true
             shrinkResources true
+
         }
         debug {
             // signingConfig signingConfigs.config
