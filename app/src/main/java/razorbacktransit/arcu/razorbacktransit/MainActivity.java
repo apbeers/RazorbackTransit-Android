@@ -21,11 +21,12 @@ public class MainActivity extends AppCompatActivity
         SchedulesFragment.OnFragmentInteractionListener,
         RoutesFragment.OnFragmentInteractionListener,
         ViewScheduleFragment.OnFragmentInteractionListener,
-        ViewRouteFragment.OnFragmentInteractionListener {
+        ViewRouteFragment.OnFragmentInteractionListener,
+        PassioLiveMapFragment.OnFragmentInteractionListener{
 
     int lastMenuItemId = 10;
     private NavigationView navigationView;
-    private LiveMapFragment liveMapFragment;
+    private PassioLiveMapFragment liveMapFragment;
     private SchedulesFragment schedulesFragment;
     private RoutesFragment routesFragment;
     private ParkingMapFragment parkingMapFragment;
@@ -53,7 +54,7 @@ public class MainActivity extends AppCompatActivity
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        liveMapFragment = new LiveMapFragment();
+        liveMapFragment = new PassioLiveMapFragment();
         schedulesFragment = new SchedulesFragment();
         routesFragment = new RoutesFragment();
 
